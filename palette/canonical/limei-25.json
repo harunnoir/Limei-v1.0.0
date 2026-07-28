@@ -1,0 +1,225 @@
+{
+  "$schema": "./limei-25.schema.json",
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.0",
+    "canonical": true,
+    "immutable": true,
+    "color_count": 25,
+    "license": "CC-BY-SA-4.0",
+    "description": "A muted, low-contrast dark palette for long-session comfort and cohesive ricing."
+  },
+  "ordered_colors": [
+    {
+      "id": "background.deep",
+      "name": "Deep",
+      "hex": "#080808",
+      "role": "Deepest background"
+    },
+    {
+      "id": "background.inactive",
+      "name": "Inactive",
+      "hex": "#0c0c0c",
+      "role": "Inactive or recessed background"
+    },
+    {
+      "id": "background.base",
+      "name": "Base",
+      "hex": "#101010",
+      "role": "Main background"
+    },
+    {
+      "id": "background.alternate",
+      "name": "Alternate",
+      "hex": "#141414",
+      "role": "Alternate background"
+    },
+    {
+      "id": "background.raised",
+      "name": "Raised",
+      "hex": "#171717",
+      "role": "Raised surface"
+    },
+    {
+      "id": "background.selection",
+      "name": "Selection",
+      "hex": "#292724",
+      "role": "Selection background"
+    },
+    {
+      "id": "background.active",
+      "name": "Active",
+      "hex": "#302d29",
+      "role": "Active surface"
+    },
+    {
+      "id": "foreground.subtle",
+      "name": "Subtle",
+      "hex": "#393632",
+      "role": "Borders and hidden UI"
+    },
+    {
+      "id": "foreground.muted",
+      "name": "Muted",
+      "hex": "#64605a",
+      "role": "Muted text"
+    },
+    {
+      "id": "foreground.dim",
+      "name": "Dim",
+      "hex": "#837f78",
+      "role": "Secondary text"
+    },
+    {
+      "id": "foreground.base",
+      "name": "Foreground",
+      "hex": "#ada9a3",
+      "role": "Main text"
+    },
+    {
+      "id": "foreground.bright",
+      "name": "Bright",
+      "hex": "#c0bbb3",
+      "role": "High-emphasis text"
+    },
+    {
+      "id": "warm.red",
+      "name": "Red",
+      "hex": "#9a7477",
+      "role": "Errors and destructive states"
+    },
+    {
+      "id": "warm.urgent",
+      "name": "Urgent",
+      "hex": "#9b7469",
+      "role": "Urgent and conflict states"
+    },
+    {
+      "id": "warm.orange",
+      "name": "Orange",
+      "hex": "#9c795e",
+      "role": "Transforms and replacements"
+    },
+    {
+      "id": "warm.amber",
+      "name": "Amber",
+      "hex": "#a38762",
+      "role": "Warnings"
+    },
+    {
+      "id": "warm.clay",
+      "name": "Clay",
+      "hex": "#9a7869",
+      "role": "Warm interaction accent"
+    },
+    {
+      "id": "warm.taupe",
+      "name": "Taupe",
+      "hex": "#9a897c",
+      "role": "Focus and functional accent"
+    },
+    {
+      "id": "earth.green",
+      "name": "Green",
+      "hex": "#768569",
+      "role": "Success and additions"
+    },
+    {
+      "id": "earth.sage",
+      "name": "Sage",
+      "hex": "#7f8c77",
+      "role": "Primary earth accent"
+    },
+    {
+      "id": "earth.wheat",
+      "name": "Wheat",
+      "hex": "#97916f",
+      "role": "Types and soft highlights"
+    },
+    {
+      "id": "earth.navigation",
+      "name": "Navigation",
+      "hex": "#918862",
+      "role": "Navigation state"
+    },
+    {
+      "id": "earth.olive",
+      "name": "Olive",
+      "hex": "#898661",
+      "role": "Logic and secondary earth accent"
+    },
+    {
+      "id": "cool.slate",
+      "name": "Slate",
+      "hex": "#788184",
+      "role": "Information and links"
+    },
+    {
+      "id": "cool.lavender",
+      "name": "Lavender",
+      "hex": "#8d818a",
+      "role": "Constants and visited states"
+    }
+  ],
+  "groups": {
+    "background": {
+      "deep": "#080808",
+      "inactive": "#0c0c0c",
+      "base": "#101010",
+      "alternate": "#141414",
+      "raised": "#171717",
+      "selection": "#292724",
+      "active": "#302d29"
+    },
+    "foreground": {
+      "subtle": "#393632",
+      "muted": "#64605a",
+      "dim": "#837f78",
+      "base": "#ada9a3",
+      "bright": "#c0bbb3"
+    },
+    "warm": {
+      "red": "#9a7477",
+      "urgent": "#9b7469",
+      "orange": "#9c795e",
+      "amber": "#a38762",
+      "clay": "#9a7869",
+      "taupe": "#9a897c"
+    },
+    "earth": {
+      "green": "#768569",
+      "sage": "#7f8c77",
+      "wheat": "#97916f",
+      "navigation": "#918862",
+      "olive": "#898661"
+    },
+    "cool": {
+      "slate": "#788184",
+      "lavender": "#8d818a"
+    }
+  },
+  "semantic": {
+    "background": "#101010",
+    "background_deep": "#080808",
+    "surface": "#171717",
+    "surface_alternate": "#141414",
+    "surface_active": "#302d29",
+    "selection": "#292724",
+    "border": "#393632",
+    "text": "#ada9a3",
+    "text_muted": "#64605a",
+    "text_dim": "#837f78",
+    "text_bright": "#c0bbb3",
+    "primary": "#7f8c77",
+    "secondary": "#9a7869",
+    "tertiary": "#788184",
+    "success": "#768569",
+    "warning": "#a38762",
+    "error": "#9a7477",
+    "urgent": "#9b7469",
+    "info": "#788184",
+    "visited": "#8d818a",
+    "focus": "#9a897c"
+  }
+}

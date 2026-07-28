@@ -1,0 +1,64 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+# DO NOT EDIT DIRECTLY. Generated from palette/canonical/limei-25.json.
+
+[Background]
+Color=16,16,16
+
+[BackgroundFaint]
+Color=8,8,8
+
+[BackgroundIntense]
+Color=23,23,23
+
+[Color0]
+Color=57,54,50
+[Color0Intense]
+Color=100,96,90
+[Color1]
+Color=154,116,119
+[Color1Intense]
+Color=168,131,134
+[Color2]
+Color=118,133,105
+[Color2Intense]
+Color=133,148,121
+[Color3]
+Color=163,135,98
+[Color3Intense]
+Color=178,150,115
+[Color4]
+Color=120,129,132
+[Color4Intense]
+Color=135,144,147
+[Color5]
+Color=141,129,138
+[Color5Intense]
+Color=156,144,153
+[Color6]
+Color=127,140,119
+[Color6Intense]
+Color=142,155,135
+[Color7]
+Color=173,169,163
+[Color7Intense]
+Color=192,187,179
+
+[Foreground]
+Color=173,169,163
+
+[ForegroundFaint]
+Color=131,127,120
+
+[ForegroundIntense]
+Color=192,187,179
+
+[General]
+Anchor=0.5,0.5
+Blur=false
+ColorRandomization=false
+Description=Limei by harunnoir
+FillStyle=Tile
+Opacity=1
+Wallpaper=

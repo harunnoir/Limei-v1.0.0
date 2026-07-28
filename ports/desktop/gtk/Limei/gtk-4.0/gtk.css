@@ -1,0 +1,197 @@
+/*
+ * Limei by harunnoir
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * Colors: CC-BY-SA-4.0
+ */
+
+@define-color bg #101010;
+@define-color surface #171717;
+@define-color selection #292724;
+@define-color active #302d29;
+@define-color border #393632;
+@define-color muted #64605a;
+@define-color dim #837f78;
+@define-color fg #ada9a3;
+@define-color bright #c0bbb3;
+@define-color red #9a7477;
+@define-color amber #a38762;
+@define-color clay #9a7869;
+@define-color focus #9a897c;
+@define-color green #768569;
+@define-color sage #7f8c77;
+@define-color wheat #97916f;
+@define-color navigation #918862;
+@define-color slate #788184;
+@define-color lavender #8d818a;
+
+* {
+    color: @fg;
+    background-color: transparent;
+    outline-color: @focus;
+    -gtk-icon-shadow: none;
+}
+
+window,
+dialog,
+.background {
+    color: @fg;
+    background-color: @bg;
+}
+
+headerbar,
+.titlebar,
+toolbar,
+menubar,
+statusbar {
+    color: @fg;
+    background-color: @surface;
+    border-color: @border;
+    box-shadow: none;
+}
+
+button,
+entry,
+spinbutton,
+combobox,
+textview,
+.view {
+    color: @fg;
+    background-color: @surface;
+    border: 1px solid @border;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+button {
+    padding: 5px 9px;
+}
+
+button:hover,
+row:hover,
+menuitem:hover {
+    background-color: @active;
+}
+
+button:active,
+button:checked {
+    background-color: @selection;
+}
+
+button:focus,
+entry:focus,
+spinbutton:focus,
+combobox:focus,
+textview:focus {
+    border-color: @focus;
+    outline-color: @focus;
+}
+
+button.suggested-action {
+    color: @bg;
+    background-color: @sage;
+    border-color: @sage;
+}
+
+button.destructive-action {
+    color: @bg;
+    background-color: @red;
+    border-color: @red;
+}
+
+entry selection,
+textview text selection,
+.view:selected,
+row:selected {
+    color: @bright;
+    background-color: @selection;
+}
+
+menu,
+popover,
+popover.background {
+    color: @fg;
+    background-color: @surface;
+    border: 1px solid @border;
+    box-shadow: none;
+}
+
+notebook > header {
+    background-color: @bg;
+    border-color: @border;
+}
+
+notebook > header > tabs > tab {
+    color: @dim;
+    background-color: @surface;
+    border-color: @border;
+}
+
+notebook > header > tabs > tab:checked {
+    color: @bright;
+    background-color: @active;
+}
+
+switch {
+    background-color: @border;
+}
+
+switch:checked {
+    background-color: @sage;
+}
+
+progressbar trough,
+scale trough {
+    background-color: @surface;
+    border: 1px solid @border;
+}
+
+progressbar progress {
+    background-color: @green;
+}
+
+scale highlight {
+    background-color: @sage;
+}
+
+scrollbar {
+    background-color: @bg;
+}
+
+scrollbar slider {
+    background-color: @border;
+    border-radius: 4px;
+    min-width: 7px;
+    min-height: 7px;
+}
+
+scrollbar slider:hover {
+    background-color: @dim;
+}
+
+link,
+.link {
+    color: @slate;
+}
+
+link:visited,
+.link:visited {
+    color: @lavender;
+}
+
+tooltip {
+    color: @fg;
+    background-color: @surface;
+    border: 1px solid @border;
+}
+
+.error {
+    color: @red;
+}
+
+.warning {
+    color: @amber;
+}
+
+.success {
+    color: @green;
+}

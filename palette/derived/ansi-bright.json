@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "canonical": false,
+    "generated": true,
+    "derived_from": "palette/canonical/limei-25.json",
+    "generator": "scripts/generate.py",
+    "kind": "approved-derived-ansi-bright-colors",
+    "license": "CC-BY-SA-4.0",
+    "method": "OKLab lightness lift of approximately 0.05 with a small chroma reduction",
+    "purpose": "Keep ANSI bright slots distinct and hue-related without making them harsh."
+  },
+  "colors": {
+    "red": "#a88386",
+    "green": "#859479",
+    "yellow": "#b29673",
+    "blue": "#879093",
+    "magenta": "#9c9099",
+    "cyan": "#8e9b87"
+  }
+}

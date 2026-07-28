@@ -1,0 +1,72 @@
+/*
+ * Limei by harunnoir
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * Colors: CC-BY-SA-4.0
+ */
+
+@define-color background #101010;
+@define-color surface #171717;
+@define-color selection #292724;
+@define-color active #302d29;
+@define-color border #393632;
+@define-color muted #64605a;
+@define-color dim #837f78;
+@define-color foreground #ada9a3;
+@define-color bright #c0bbb3;
+@define-color red #9a7477;
+@define-color clay #9a7869;
+@define-color green #768569;
+@define-color slate #788184;
+
+* {
+    font-family: monospace;
+    color: @foreground;
+}
+
+.control-center,
+.notification-row .notification-background .notification {
+    background: @surface;
+    border: 1px solid @border;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.notification-row .notification-background .notification:hover {
+    background: @active;
+}
+
+.notification.critical {
+    border-color: @red;
+}
+
+.notification.low {
+    border-color: @slate;
+}
+
+.close-button {
+    background: transparent;
+    color: @dim;
+    border-radius: 3px;
+}
+
+.close-button:hover {
+    background: @selection;
+    color: @red;
+}
+
+.widget-title {
+    color: @bright;
+}
+
+/* Do-not-disturb is a mode, so it uses clay rather than success green. */
+.widget-dnd switch:checked {
+    background: @clay;
+}
+
+trough {
+    background: @background;
+}
+
+progress {
+    background: @green;
+}

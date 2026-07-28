@@ -1,0 +1,31 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+
+# Optional starting configuration for current TOML-based Alacritty releases.
+[general]
+import = ["~/.config/alacritty/themes/limei.toml"]
+live_config_reload = true
+
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+opacity = 1.0
+decorations = "None"
+
+[font]
+size = 11.0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+unfocused_hollow = true
+
+[selection]
+save_to_clipboard = false
+
+[mouse]
+hide_when_typing = true

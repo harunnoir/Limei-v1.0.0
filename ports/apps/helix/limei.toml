@@ -1,0 +1,82 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+
+"ui.background" = { bg = "background" }
+"ui.text" = "foreground"
+"ui.text.focus" = { fg = "bright", modifiers = ["bold"] }
+"ui.text.inactive" = "muted"
+
+# Taupe is the primary focus cursor; sage distinguishes secondary cursors.
+"ui.cursor" = { fg = "background", bg = "sage" }
+"ui.cursor.primary" = { fg = "background", bg = "taupe" }
+"ui.cursor.match" = { fg = "background", bg = "wheat", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "active" }
+"ui.linenr" = "muted"
+"ui.linenr.selected" = "wheat"
+
+"ui.statusline" = { fg = "dim", bg = "surface" }
+"ui.statusline.inactive" = { fg = "muted", bg = "background" }
+"ui.statusline.normal" = { fg = "background", bg = "sage" }
+"ui.statusline.insert" = { fg = "background", bg = "clay" }
+"ui.statusline.select" = { fg = "background", bg = "slate" }
+
+"ui.popup" = { fg = "foreground", bg = "surface" }
+"ui.window" = "border"
+"ui.help" = { fg = "foreground", bg = "surface" }
+"ui.menu" = { fg = "foreground", bg = "surface" }
+"ui.menu.selected" = { fg = "bright", bg = "active" }
+"ui.virtual.whitespace" = "border"
+"ui.virtual.ruler" = { bg = "alternate" }
+"ui.virtual.jump-label" = { fg = "amber", modifiers = ["bold"] }
+
+"comment" = { fg = "muted", modifiers = ["italic"] }
+"string" = "sage"
+"constant" = "lavender"
+"constant.numeric" = "wheat"
+"keyword" = "clay"
+"keyword.control" = "orange"
+"function" = "taupe"
+"type" = "wheat"
+"variable" = "foreground"
+"variable.parameter" = "dim"
+"operator" = "olive"
+"attribute" = "slate"
+"namespace" = "slate"
+"tag" = "clay"
+"special" = "amber"
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "amber", style = "curl" } }
+"diagnostic.info" = { underline = { color = "slate", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "sage", style = "curl" } }
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "amber"
+
+[palette]
+deep = "#080808"
+background = "#101010"
+alternate = "#141414"
+surface = "#171717"
+selection = "#292724"
+active = "#302d29"
+border = "#393632"
+muted = "#64605a"
+dim = "#837f78"
+foreground = "#ada9a3"
+bright = "#c0bbb3"
+red = "#9a7477"
+orange = "#9c795e"
+amber = "#a38762"
+clay = "#9a7869"
+taupe = "#9a897c"
+green = "#768569"
+sage = "#7f8c77"
+wheat = "#97916f"
+olive = "#898661"
+slate = "#788184"
+lavender = "#8d818a"

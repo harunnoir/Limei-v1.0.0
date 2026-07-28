@@ -1,0 +1,23 @@
+// Limei by harunnoir
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Colors: CC-BY-SA-4.0
+
+// Focus is taupe, urgent windows are red, and insert hints use slate.
+layout {
+    background-color "#101010"
+
+    focus-ring {
+        width 2
+        active-color "#9a897c"
+        inactive-color "#393632"
+        urgent-color "#9a7477"
+    }
+
+    border {
+        off
+    }
+
+    insert-hint {
+        color "#78818480"
+    }
+}

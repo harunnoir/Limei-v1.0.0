@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical Limei 25 palette",
+  "type": "object",
+  "required": [
+    "meta",
+    "ordered_colors",
+    "groups",
+    "semantic"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "name",
+        "creator",
+        "version",
+        "canonical",
+        "immutable",
+        "color_count",
+        "license"
+      ],
+      "properties": {
+        "name": {
+          "const": "Limei"
+        },
+        "creator": {
+          "const": "harunnoir"
+        },
+        "canonical": {
+          "const": true
+        },
+        "immutable": {
+          "const": true
+        },
+        "color_count": {
+          "const": 25
+        }
+      }
+    },
+    "ordered_colors": {
+      "type": "array",
+      "minItems": 25,
+      "maxItems": 25
+    }
+  }
+}

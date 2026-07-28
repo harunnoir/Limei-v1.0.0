@@ -1,0 +1,31 @@
+GIMP Palette
+Name: Limei
+Columns: 5
+# Limei by harunnoir
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+  8   8   8  Deep
+ 12  12  12  Inactive
+ 16  16  16  Base
+ 20  20  20  Alternate
+ 23  23  23  Raised
+ 41  39  36  Selection
+ 48  45  41  Active
+ 57  54  50  Subtle
+100  96  90  Muted
+131 127 120  Dim
+173 169 163  Foreground
+192 187 179  Bright
+154 116 119  Red
+155 116 105  Urgent
+156 121  94  Orange
+163 135  98  Amber
+154 120 105  Clay
+154 137 124  Taupe
+118 133 105  Green
+127 140 119  Sage
+151 145 111  Wheat
+145 136  98  Navigation
+137 134  97  Olive
+120 129 132  Slate
+141 129 138  Lavender

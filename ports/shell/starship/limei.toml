@@ -1,0 +1,31 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+# DO NOT EDIT DIRECTLY. Generated from palette/canonical/limei-25.json.
+
+[palettes.limei]
+background_deep = "#080808"
+background_inactive = "#0c0c0c"
+background_base = "#101010"
+background_alternate = "#141414"
+background_raised = "#171717"
+background_selection = "#292724"
+background_active = "#302d29"
+foreground_subtle = "#393632"
+foreground_muted = "#64605a"
+foreground_dim = "#837f78"
+foreground_base = "#ada9a3"
+foreground_bright = "#c0bbb3"
+warm_red = "#9a7477"
+warm_urgent = "#9b7469"
+warm_orange = "#9c795e"
+warm_amber = "#a38762"
+warm_clay = "#9a7869"
+warm_taupe = "#9a897c"
+earth_green = "#768569"
+earth_sage = "#7f8c77"
+earth_wheat = "#97916f"
+earth_navigation = "#918862"
+earth_olive = "#898661"
+cool_slate = "#788184"
+cool_lavender = "#8d818a"

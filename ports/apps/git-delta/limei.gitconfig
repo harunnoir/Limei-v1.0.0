@@ -1,0 +1,25 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+
+# Include this file from ~/.gitconfig:
+# [include]
+#     path = ~/.config/git/limei.gitconfig
+
+[delta]
+    dark = true
+    syntax-theme = none
+    minus-style = syntax "#9a7477"
+    minus-emph-style = syntax bold "#9b7469"
+    plus-style = syntax "#768569"
+    plus-emph-style = syntax bold "#7f8c77"
+    zero-style = syntax "#837f78"
+    file-style = bold "#788184"
+    file-decoration-style = "#393632" box
+    hunk-header-style = syntax "#9a7869"
+    hunk-header-decoration-style = "#393632" box
+    line-numbers-left-style = "#9a7477"
+    line-numbers-right-style = "#768569"
+    line-numbers-minus-style = "#9a7477"
+    line-numbers-plus-style = "#768569"
+    line-numbers-zero-style = "#64605a"

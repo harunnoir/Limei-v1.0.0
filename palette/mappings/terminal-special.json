@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "canonical": false,
+    "generated": true,
+    "derived_from": "palette/canonical/limei-25.json",
+    "generator": "scripts/generate.py",
+    "kind": "terminal-special-colors",
+    "license": "CC-BY-SA-4.0"
+  },
+  "colors": {
+    "background": "#101010",
+    "foreground": "#ada9a3",
+    "cursor": "#9a897c",
+    "cursor_text": "#101010",
+    "selection_background": "#292724",
+    "selection_foreground": "#c0bbb3"
+  }
+}

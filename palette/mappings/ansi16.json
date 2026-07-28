@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "canonical": false,
+    "generated": true,
+    "derived_from": "palette/canonical/limei-25.json",
+    "generator": "scripts/generate.py",
+    "kind": "official-ansi16-mapping",
+    "stable": true,
+    "license": "CC-BY-SA-4.0",
+    "notes": [
+      "ANSI black is foreground.subtle rather than the terminal background, so black text remains visible.",
+      "Normal slots use canonical Limei colors.",
+      "Bright red, green, yellow, blue, magenta, and cyan are approved derived Limei colors that preserve hue and remain muted."
+    ]
+  },
+  "normal": {
+    "black": "#393632",
+    "red": "#9a7477",
+    "green": "#768569",
+    "yellow": "#a38762",
+    "blue": "#788184",
+    "magenta": "#8d818a",
+    "cyan": "#7f8c77",
+    "white": "#ada9a3"
+  },
+  "bright": {
+    "black": "#64605a",
+    "red": "#a88386",
+    "green": "#859479",
+    "yellow": "#b29673",
+    "blue": "#879093",
+    "magenta": "#9c9099",
+    "cyan": "#8e9b87",
+    "white": "#c0bbb3"
+  }
+}

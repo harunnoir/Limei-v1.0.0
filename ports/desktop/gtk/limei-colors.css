@@ -1,0 +1,31 @@
+/*
+ * Limei by harunnoir
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * Colors: CC-BY-SA-4.0
+ */
+
+@define-color limei_deep #080808;
+@define-color limei_bg #101010;
+@define-color limei_alt #141414;
+@define-color limei_surface #171717;
+@define-color limei_selection #292724;
+@define-color limei_active #302d29;
+@define-color limei_border #393632;
+@define-color limei_muted #64605a;
+@define-color limei_dim #837f78;
+@define-color limei_fg #ada9a3;
+@define-color limei_bright #c0bbb3;
+
+@define-color limei_error #9a7477;
+@define-color limei_urgent #9b7469;
+@define-color limei_transform #9c795e;
+@define-color limei_warning #a38762;
+@define-color limei_clay #9a7869;
+@define-color limei_focus #9a897c;
+@define-color limei_success #768569;
+@define-color limei_primary #7f8c77;
+@define-color limei_highlight #97916f;
+@define-color limei_navigation #918862;
+@define-color limei_logic #898661;
+@define-color limei_info #788184;
+@define-color limei_visited #8d818a;

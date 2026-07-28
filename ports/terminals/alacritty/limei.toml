@@ -1,0 +1,66 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+# DO NOT EDIT DIRECTLY. Generated from palette/canonical/limei-25.json.
+
+[colors.primary]
+background = "#101010"
+foreground = "#ada9a3"
+dim_foreground = "#837f78"
+bright_foreground = "#c0bbb3"
+
+[colors.cursor]
+text = "#101010"
+cursor = "#9a897c"
+
+[colors.vi_mode_cursor]
+text = "#101010"
+cursor = "#918862"
+
+[colors.selection]
+text = "#c0bbb3"
+background = "#292724"
+
+[colors.search.matches]
+foreground = "#101010"
+background = "#97916f"
+
+[colors.search.focused_match]
+foreground = "#101010"
+background = "#9a897c"
+
+[colors.hints.start]
+foreground = "#101010"
+background = "#a38762"
+
+[colors.hints.end]
+foreground = "#101010"
+background = "#788184"
+
+[colors.footer_bar]
+foreground = "#ada9a3"
+background = "#171717"
+
+[colors.normal]
+black = "#393632"
+red = "#9a7477"
+green = "#768569"
+yellow = "#a38762"
+blue = "#788184"
+magenta = "#8d818a"
+cyan = "#7f8c77"
+white = "#ada9a3"
+
+[colors.bright]
+black = "#64605a"
+red = "#a88386"
+green = "#859479"
+yellow = "#b29673"
+blue = "#879093"
+magenta = "#9c9099"
+cyan = "#8e9b87"
+white = "#c0bbb3"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+transparent_background_colors = false

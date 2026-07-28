@@ -1,0 +1,81 @@
+<!-- Limei by harunnoir -->
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="460" viewBox="0 0 950 460">
+<rect width="100%" height="100%" fill="#101010"/>
+<style>text{font-family:monospace}.name{font-size:15px;font-weight:700}.hex{font-size:13px}</style>
+<rect x="8" y="8" width="174" height="76" rx="8" fill="#080808" stroke="#393632"/>
+<text class="name" x="20" y="37" fill="#c0bbb3">Deep</text>
+<text class="hex" x="20" y="60" fill="#c0bbb3">#080808</text>
+<rect x="198" y="8" width="174" height="76" rx="8" fill="#0c0c0c" stroke="#393632"/>
+<text class="name" x="210" y="37" fill="#c0bbb3">Inactive</text>
+<text class="hex" x="210" y="60" fill="#c0bbb3">#0c0c0c</text>
+<rect x="388" y="8" width="174" height="76" rx="8" fill="#101010" stroke="#393632"/>
+<text class="name" x="400" y="37" fill="#c0bbb3">Base</text>
+<text class="hex" x="400" y="60" fill="#c0bbb3">#101010</text>
+<rect x="578" y="8" width="174" height="76" rx="8" fill="#141414" stroke="#393632"/>
+<text class="name" x="590" y="37" fill="#c0bbb3">Alternate</text>
+<text class="hex" x="590" y="60" fill="#c0bbb3">#141414</text>
+<rect x="768" y="8" width="174" height="76" rx="8" fill="#171717" stroke="#393632"/>
+<text class="name" x="780" y="37" fill="#c0bbb3">Raised</text>
+<text class="hex" x="780" y="60" fill="#c0bbb3">#171717</text>
+<rect x="8" y="100" width="174" height="76" rx="8" fill="#292724" stroke="#393632"/>
+<text class="name" x="20" y="129" fill="#c0bbb3">Selection</text>
+<text class="hex" x="20" y="152" fill="#c0bbb3">#292724</text>
+<rect x="198" y="100" width="174" height="76" rx="8" fill="#302d29" stroke="#393632"/>
+<text class="name" x="210" y="129" fill="#c0bbb3">Active</text>
+<text class="hex" x="210" y="152" fill="#c0bbb3">#302d29</text>
+<rect x="388" y="100" width="174" height="76" rx="8" fill="#393632" stroke="#393632"/>
+<text class="name" x="400" y="129" fill="#c0bbb3">Subtle</text>
+<text class="hex" x="400" y="152" fill="#c0bbb3">#393632</text>
+<rect x="578" y="100" width="174" height="76" rx="8" fill="#64605a" stroke="#393632"/>
+<text class="name" x="590" y="129" fill="#101010">Muted</text>
+<text class="hex" x="590" y="152" fill="#101010">#64605a</text>
+<rect x="768" y="100" width="174" height="76" rx="8" fill="#837f78" stroke="#393632"/>
+<text class="name" x="780" y="129" fill="#101010">Dim</text>
+<text class="hex" x="780" y="152" fill="#101010">#837f78</text>
+<rect x="8" y="192" width="174" height="76" rx="8" fill="#ada9a3" stroke="#393632"/>
+<text class="name" x="20" y="221" fill="#101010">Foreground</text>
+<text class="hex" x="20" y="244" fill="#101010">#ada9a3</text>
+<rect x="198" y="192" width="174" height="76" rx="8" fill="#c0bbb3" stroke="#393632"/>
+<text class="name" x="210" y="221" fill="#101010">Bright</text>
+<text class="hex" x="210" y="244" fill="#101010">#c0bbb3</text>
+<rect x="388" y="192" width="174" height="76" rx="8" fill="#9a7477" stroke="#393632"/>
+<text class="name" x="400" y="221" fill="#101010">Red</text>
+<text class="hex" x="400" y="244" fill="#101010">#9a7477</text>
+<rect x="578" y="192" width="174" height="76" rx="8" fill="#9b7469" stroke="#393632"/>
+<text class="name" x="590" y="221" fill="#101010">Urgent</text>
+<text class="hex" x="590" y="244" fill="#101010">#9b7469</text>
+<rect x="768" y="192" width="174" height="76" rx="8" fill="#9c795e" stroke="#393632"/>
+<text class="name" x="780" y="221" fill="#101010">Orange</text>
+<text class="hex" x="780" y="244" fill="#101010">#9c795e</text>
+<rect x="8" y="284" width="174" height="76" rx="8" fill="#a38762" stroke="#393632"/>
+<text class="name" x="20" y="313" fill="#101010">Amber</text>
+<text class="hex" x="20" y="336" fill="#101010">#a38762</text>
+<rect x="198" y="284" width="174" height="76" rx="8" fill="#9a7869" stroke="#393632"/>
+<text class="name" x="210" y="313" fill="#101010">Clay</text>
+<text class="hex" x="210" y="336" fill="#101010">#9a7869</text>
+<rect x="388" y="284" width="174" height="76" rx="8" fill="#9a897c" stroke="#393632"/>
+<text class="name" x="400" y="313" fill="#101010">Taupe</text>
+<text class="hex" x="400" y="336" fill="#101010">#9a897c</text>
+<rect x="578" y="284" width="174" height="76" rx="8" fill="#768569" stroke="#393632"/>
+<text class="name" x="590" y="313" fill="#101010">Green</text>
+<text class="hex" x="590" y="336" fill="#101010">#768569</text>
+<rect x="768" y="284" width="174" height="76" rx="8" fill="#7f8c77" stroke="#393632"/>
+<text class="name" x="780" y="313" fill="#101010">Sage</text>
+<text class="hex" x="780" y="336" fill="#101010">#7f8c77</text>
+<rect x="8" y="376" width="174" height="76" rx="8" fill="#97916f" stroke="#393632"/>
+<text class="name" x="20" y="405" fill="#101010">Wheat</text>
+<text class="hex" x="20" y="428" fill="#101010">#97916f</text>
+<rect x="198" y="376" width="174" height="76" rx="8" fill="#918862" stroke="#393632"/>
+<text class="name" x="210" y="405" fill="#101010">Navigation</text>
+<text class="hex" x="210" y="428" fill="#101010">#918862</text>
+<rect x="388" y="376" width="174" height="76" rx="8" fill="#898661" stroke="#393632"/>
+<text class="name" x="400" y="405" fill="#101010">Olive</text>
+<text class="hex" x="400" y="428" fill="#101010">#898661</text>
+<rect x="578" y="376" width="174" height="76" rx="8" fill="#788184" stroke="#393632"/>
+<text class="name" x="590" y="405" fill="#101010">Slate</text>
+<text class="hex" x="590" y="428" fill="#101010">#788184</text>
+<rect x="768" y="376" width="174" height="76" rx="8" fill="#8d818a" stroke="#393632"/>
+<text class="name" x="780" y="405" fill="#101010">Lavender</text>
+<text class="hex" x="780" y="428" fill="#101010">#8d818a</text>
+</svg>

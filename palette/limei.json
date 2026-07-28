@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "canonical": false,
+    "generated": true,
+    "derived_from": "palette/canonical/limei-25.json",
+    "generator": "scripts/generate.py",
+    "kind": "compatibility-export",
+    "license": "CC-BY-SA-4.0"
+  },
+  "colors": {
+    "background": {
+      "deep": "#080808",
+      "inactive": "#0c0c0c",
+      "base": "#101010",
+      "alternate": "#141414",
+      "raised": "#171717",
+      "selection": "#292724",
+      "active": "#302d29"
+    },
+    "foreground": {
+      "subtle": "#393632",
+      "muted": "#64605a",
+      "dim": "#837f78",
+      "base": "#ada9a3",
+      "bright": "#c0bbb3"
+    },
+    "warm": {
+      "red": "#9a7477",
+      "urgent": "#9b7469",
+      "orange": "#9c795e",
+      "amber": "#a38762",
+      "clay": "#9a7869",
+      "taupe": "#9a897c"
+    },
+    "earth": {
+      "green": "#768569",
+      "sage": "#7f8c77",
+      "wheat": "#97916f",
+      "navigation": "#918862",
+      "olive": "#898661"
+    },
+    "cool": {
+      "slate": "#788184",
+      "lavender": "#8d818a"
+    }
+  },
+  "semantic": {
+    "background": "#101010",
+    "background_deep": "#080808",
+    "surface": "#171717",
+    "surface_alternate": "#141414",
+    "surface_active": "#302d29",
+    "selection": "#292724",
+    "border": "#393632",
+    "text": "#ada9a3",
+    "text_muted": "#64605a",
+    "text_dim": "#837f78",
+    "text_bright": "#c0bbb3",
+    "primary": "#7f8c77",
+    "secondary": "#9a7869",
+    "tertiary": "#788184",
+    "success": "#768569",
+    "warning": "#a38762",
+    "error": "#9a7477",
+    "urgent": "#9b7469",
+    "info": "#788184",
+    "visited": "#8d818a",
+    "focus": "#9a897c"
+  },
+  "terminal": {
+    "normal": {
+      "black": "#393632",
+      "red": "#9a7477",
+      "green": "#768569",
+      "yellow": "#a38762",
+      "blue": "#788184",
+      "magenta": "#8d818a",
+      "cyan": "#7f8c77",
+      "white": "#ada9a3"
+    },
+    "bright": {
+      "black": "#64605a",
+      "red": "#a88386",
+      "green": "#859479",
+      "yellow": "#b29673",
+      "blue": "#879093",
+      "magenta": "#9c9099",
+      "cyan": "#8e9b87",
+      "white": "#c0bbb3"
+    },
+    "background": "#101010",
+    "foreground": "#ada9a3",
+    "cursor": "#9a897c",
+    "cursor_text": "#101010",
+    "selection_background": "#292724",
+    "selection_foreground": "#c0bbb3"
+  }
+}

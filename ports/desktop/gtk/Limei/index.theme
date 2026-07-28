@@ -1,0 +1,14 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Limei
+Comment=Muted Limei GTK theme by harunnoir
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Limei
+MetacityTheme=Limei
+ButtonLayout=menu:minimize,maximize,close

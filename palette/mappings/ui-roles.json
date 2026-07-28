@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "canonical": false,
+    "generated": true,
+    "derived_from": "palette/canonical/limei-25.json",
+    "generator": "scripts/generate.py",
+    "kind": "official-ui-role-mapping",
+    "license": "CC-BY-SA-4.0",
+    "note": "Roles point to immutable canonical colors; this mapping controls how Limei is used, not only which colors exist."
+  },
+  "surfaces": {
+    "background": "#101010",
+    "background_deep": "#080808",
+    "surface": "#171717",
+    "surface_alternate": "#141414",
+    "surface_selected": "#292724",
+    "surface_active": "#302d29",
+    "border": "#393632"
+  },
+  "text": {
+    "primary": "#ada9a3",
+    "secondary": "#837f78",
+    "muted": "#64605a",
+    "emphasis": "#c0bbb3",
+    "on_accent": "#101010"
+  },
+  "interaction": {
+    "focus": "#9a897c",
+    "primary": "#7f8c77",
+    "navigation": "#918862",
+    "cursor": "#9a897c",
+    "selection": "#292724",
+    "highlight": "#97916f"
+  },
+  "semantic": {
+    "success": "#768569",
+    "warning": "#a38762",
+    "error": "#9a7477",
+    "urgent": "#9b7469",
+    "information": "#788184",
+    "visited": "#8d818a",
+    "transform": "#9c795e",
+    "warm_interaction": "#9a7869",
+    "logic": "#898661"
+  },
+  "comfort_rules": [
+    "Persistent large surfaces use neutral colors.",
+    "Selections use neutral surface colors rather than saturated accent fills.",
+    "Taupe is the default focus and functional accent.",
+    "Sage is reserved for primary actions, success-adjacent states, and small active indicators.",
+    "Accent colors communicate state and hierarchy; they are not decoration."
+  ]
+}

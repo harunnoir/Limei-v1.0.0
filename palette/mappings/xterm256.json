@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "name": "Limei",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "canonical": false,
+    "generated": true,
+    "derived_from": "palette/canonical/limei-25.json",
+    "generator": "scripts/generate.py",
+    "kind": "fixed-xterm256-nearest-index-map",
+    "license": "CC-BY-SA-4.0",
+    "index_range": "16-255",
+    "method": "nearest CIE Lab color using Delta E 1976",
+    "note": "Indices 0-15 are excluded because terminal themes redefine those ANSI slots."
+  },
+  "mappings": [
+    {
+      "token": "background.deep",
+      "source_hex": "#080808",
+      "nearest_fixed_xterm_index": 232,
+      "nearest_fixed_xterm_hex": "#080808",
+      "delta_e_76": 0.0
+    },
+    {
+      "token": "background.inactive",
+      "source_hex": "#0c0c0c",
+      "nearest_fixed_xterm_index": 232,
+      "nearest_fixed_xterm_hex": "#080808",
+      "delta_e_76": 1.128
+    },
+    {
+      "token": "background.base",
+      "source_hex": "#101010",
+      "nearest_fixed_xterm_index": 233,
+      "nearest_fixed_xterm_hex": "#121212",
+      "delta_e_76": 0.783
+    },
+    {
+      "token": "background.alternate",
+      "source_hex": "#141414",
+      "nearest_fixed_xterm_index": 233,
+      "nearest_fixed_xterm_hex": "#121212",
+      "delta_e_76": 0.855
+    },
+    {
+      "token": "background.raised",
+      "source_hex": "#171717",
+      "nearest_fixed_xterm_index": 233,
+      "nearest_fixed_xterm_hex": "#121212",
+      "delta_e_76": 2.276
+    },
+    {
+      "token": "background.selection",
+      "source_hex": "#292724",
+      "nearest_fixed_xterm_index": 235,
+      "nearest_fixed_xterm_hex": "#262626",
+      "delta_e_76": 2.394
+    },
+    {
+      "token": "background.active",
+      "source_hex": "#302d29",
+      "nearest_fixed_xterm_index": 236,
+      "nearest_fixed_xterm_hex": "#303030",
+      "delta_e_76": 3.337
+    },
+    {
+      "token": "foreground.subtle",
+      "source_hex": "#393632",
+      "nearest_fixed_xterm_index": 237,
+      "nearest_fixed_xterm_hex": "#3a3a3a",
+      "delta_e_76": 3.431
+    },
+    {
+      "token": "foreground.muted",
+      "source_hex": "#64605a",
+      "nearest_fixed_xterm_index": 59,
+      "nearest_fixed_xterm_hex": "#5f5f5f",
+      "delta_e_76": 4.055
+    },
+    {
+      "token": "foreground.dim",
+      "source_hex": "#837f78",
+      "nearest_fixed_xterm_index": 244,
+      "nearest_fixed_xterm_hex": "#808080",
+      "delta_e_76": 4.348
+    },
+    {
+      "token": "foreground.base",
+      "source_hex": "#ada9a3",
+      "nearest_fixed_xterm_index": 248,
+      "nearest_fixed_xterm_hex": "#a8a8a8",
+      "delta_e_76": 3.652
+    },
+    {
+      "token": "foreground.bright",
+      "source_hex": "#c0bbb3",
+      "nearest_fixed_xterm_index": 250,
+      "nearest_fixed_xterm_hex": "#bcbcbc",
+      "delta_e_76": 4.683
+    },
+    {
+      "token": "warm.red",
+      "source_hex": "#9a7477",
+      "nearest_fixed_xterm_index": 138,
+      "nearest_fixed_xterm_hex": "#af8787",
+      "delta_e_76": 7.65
+    },
+    {
+      "token": "warm.urgent",
+      "source_hex": "#9b7469",
+      "nearest_fixed_xterm_index": 138,
+      "nearest_fixed_xterm_hex": "#af8787",
+      "delta_e_76": 9.964
+    },
+    {
+      "token": "warm.orange",
+      "source_hex": "#9c795e",
+      "nearest_fixed_xterm_index": 137,
+      "nearest_fixed_xterm_hex": "#af875f",
+      "delta_e_76": 9.257
+    },
+    {
+      "token": "warm.amber",
+      "source_hex": "#a38762",
+      "nearest_fixed_xterm_index": 137,
+      "nearest_fixed_xterm_hex": "#af875f",
+      "delta_e_76": 5.971
+    },
+    {
+      "token": "warm.clay",
+      "source_hex": "#9a7869",
+      "nearest_fixed_xterm_index": 138,
+      "nearest_fixed_xterm_hex": "#af8787",
+      "delta_e_76": 10.904
+    },
+    {
+      "token": "warm.taupe",
+      "source_hex": "#9a897c",
+      "nearest_fixed_xterm_index": 245,
+      "nearest_fixed_xterm_hex": "#8a8a8a",
+      "delta_e_76": 10.236
+    },
+    {
+      "token": "earth.green",
+      "source_hex": "#768569",
+      "nearest_fixed_xterm_index": 101,
+      "nearest_fixed_xterm_hex": "#87875f",
+      "delta_e_76": 9.423
+    },
+    {
+      "token": "earth.sage",
+      "source_hex": "#7f8c77",
+      "nearest_fixed_xterm_index": 101,
+      "nearest_fixed_xterm_hex": "#87875f",
+      "delta_e_76": 12.187
+    },
+    {
+      "token": "earth.wheat",
+      "source_hex": "#97916f",
+      "nearest_fixed_xterm_index": 101,
+      "nearest_fixed_xterm_hex": "#87875f",
+      "delta_e_76": 6.187
+    },
+    {
+      "token": "earth.navigation",
+      "source_hex": "#918862",
+      "nearest_fixed_xterm_index": 101,
+      "nearest_fixed_xterm_hex": "#87875f",
+      "delta_e_76": 4.19
+    },
+    {
+      "token": "earth.olive",
+      "source_hex": "#898661",
+      "nearest_fixed_xterm_index": 101,
+      "nearest_fixed_xterm_hex": "#87875f",
+      "delta_e_76": 2.051
+    },
+    {
+      "token": "cool.slate",
+      "source_hex": "#788184",
+      "nearest_fixed_xterm_index": 244,
+      "nearest_fixed_xterm_hex": "#808080",
+      "delta_e_76": 3.858
+    },
+    {
+      "token": "cool.lavender",
+      "source_hex": "#8d818a",
+      "nearest_fixed_xterm_index": 102,
+      "nearest_fixed_xterm_hex": "#878787",
+      "delta_e_76": 7.093
+    }
+  ]
+}

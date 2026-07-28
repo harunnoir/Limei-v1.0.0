@@ -1,0 +1,25 @@
+! Limei by harunnoir
+! SPDX-License-Identifier: GPL-3.0-or-later
+! Colors: CC-BY-SA-4.0
+! DO NOT EDIT DIRECTLY. Generated from palette/canonical/limei-25.json.
+
+*.foreground: #ada9a3
+*.background: #101010
+*.cursorColor: #9a897c
+
+*.color0: #393632
+*.color1: #9a7477
+*.color2: #768569
+*.color3: #a38762
+*.color4: #788184
+*.color5: #8d818a
+*.color6: #7f8c77
+*.color7: #ada9a3
+*.color8: #64605a
+*.color9: #a88386
+*.color10: #859479
+*.color11: #b29673
+*.color12: #879093
+*.color13: #9c9099
+*.color14: #8e9b87
+*.color15: #c0bbb3

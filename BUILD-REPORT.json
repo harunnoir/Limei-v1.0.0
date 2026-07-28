@@ -1,0 +1,30 @@
+{
+  "name": "Limei v1.0.1 build report",
+  "creator": "harunnoir",
+  "version": "1.0.1",
+  "canonical_color_count": 25,
+  "canonical_changed": false,
+  "canonical_sha256": "ab4856baa6f2f3bba89372d39a8aee6d05f015ec5fc07a3c92b656dcae1f2763  limei-25.lock-payload",
+  "approved_derived_ansi_colors": 6,
+  "comfort_scope": [
+    "terminals",
+    "shell tools",
+    "window managers",
+    "bars",
+    "notifications",
+    "launchers",
+    "GTK",
+    "Qt",
+    "editors",
+    "developer tools",
+    "readers",
+    "system monitors",
+    "Chromium/Helium"
+  ],
+  "new_documents": [
+    "docs/COMFORT-GUIDELINES.md",
+    "docs/COMFORT-AUDIT.md",
+    "docs/comfort-report.json",
+    "tests/visual-demo/limei-contexts.svg"
+  ]
+}

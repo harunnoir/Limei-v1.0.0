@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "name": "Limei comfort and semantic-role report",
+    "creator": "harunnoir",
+    "version": "1.0.1",
+    "generated_by": "scripts/check-comfort.py",
+    "note": "This is a structural comfort check. Real long-session review on each application remains necessary."
+  },
+  "principles": [
+    "Neutral colors dominate persistent surfaces.",
+    "Selection is neutral rather than a large accent fill.",
+    "Taupe represents focus and functional attention.",
+    "Accents communicate meaning and are distributed by role.",
+    "Muted text is not used for required body text."
+  ],
+  "summary": {
+    "checks": 34,
+    "failures": []
+  },
+  "checks": [
+    {
+      "kind": "role",
+      "name": "surfaces.background",
+      "expected": "#101010",
+      "actual": "#101010",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "surfaces.surface",
+      "expected": "#171717",
+      "actual": "#171717",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "surfaces.surface_selected",
+      "expected": "#292724",
+      "actual": "#292724",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "surfaces.surface_active",
+      "expected": "#302d29",
+      "actual": "#302d29",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "surfaces.border",
+      "expected": "#393632",
+      "actual": "#393632",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "text.primary",
+      "expected": "#ada9a3",
+      "actual": "#ada9a3",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "text.secondary",
+      "expected": "#837f78",
+      "actual": "#837f78",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "text.muted",
+      "expected": "#64605a",
+      "actual": "#64605a",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "text.emphasis",
+      "expected": "#c0bbb3",
+      "actual": "#c0bbb3",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "interaction.focus",
+      "expected": "#9a897c",
+      "actual": "#9a897c",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "interaction.primary",
+      "expected": "#7f8c77",
+      "actual": "#7f8c77",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "interaction.navigation",
+      "expected": "#918862",
+      "actual": "#918862",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "interaction.highlight",
+      "expected": "#97916f",
+      "actual": "#97916f",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.success",
+      "expected": "#768569",
+      "actual": "#768569",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.warning",
+      "expected": "#a38762",
+      "actual": "#a38762",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.error",
+      "expected": "#9a7477",
+      "actual": "#9a7477",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.urgent",
+      "expected": "#9b7469",
+      "actual": "#9b7469",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.information",
+      "expected": "#788184",
+      "actual": "#788184",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.visited",
+      "expected": "#8d818a",
+      "actual": "#8d818a",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.transform",
+      "expected": "#9c795e",
+      "actual": "#9c795e",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.warm_interaction",
+      "expected": "#9a7869",
+      "actual": "#9a7869",
+      "passed": true
+    },
+    {
+      "kind": "role",
+      "name": "semantic.logic",
+      "expected": "#898661",
+      "actual": "#898661",
+      "passed": true
+    },
+    {
+      "kind": "persistent-surface",
+      "name": "background",
+      "actual": "#101010",
+      "passed": true
+    },
+    {
+      "kind": "persistent-surface",
+      "name": "background_deep",
+      "actual": "#080808",
+      "passed": true
+    },
+    {
+      "kind": "persistent-surface",
+      "name": "surface",
+      "actual": "#171717",
+      "passed": true
+    },
+    {
+      "kind": "persistent-surface",
+      "name": "surface_alternate",
+      "actual": "#141414",
+      "passed": true
+    },
+    {
+      "kind": "persistent-surface",
+      "name": "surface_selected",
+      "actual": "#292724",
+      "passed": true
+    },
+    {
+      "kind": "persistent-surface",
+      "name": "surface_active",
+      "actual": "#302d29",
+      "passed": true
+    },
+    {
+      "kind": "port-role-coverage",
+      "name": "ports/desktop/niri/limei.kdl",
+      "missing": [],
+      "passed": true
+    },
+    {
+      "kind": "port-role-coverage",
+      "name": "ports/desktop/mako/limei.conf",
+      "missing": [],
+      "passed": true
+    },
+    {
+      "kind": "port-role-coverage",
+      "name": "ports/desktop/waybar/limei.css",
+      "missing": [],
+      "passed": true
+    },
+    {
+      "kind": "port-role-coverage",
+      "name": "ports/apps/helix/limei.toml",
+      "missing": [],
+      "passed": true
+    },
+    {
+      "kind": "port-role-coverage",
+      "name": "ports/apps/lazygit/limei.yml",
+      "missing": [],
+      "passed": true
+    },
+    {
+      "kind": "port-role-coverage",
+      "name": "ports/shell/fzf/limei.sh",
+      "missing": [],
+      "passed": true
+    }
+  ]
+}

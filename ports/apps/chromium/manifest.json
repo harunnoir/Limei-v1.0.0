@@ -1,0 +1,79 @@
+{
+  "manifest_version": 3,
+  "name": "Limei",
+  "version": "1.0.0",
+  "description": "Limei browser theme by harunnoir.",
+  "theme": {
+    "colors": {
+      "frame": [
+        16,
+        16,
+        16
+      ],
+      "frame_inactive": [
+        12,
+        12,
+        12
+      ],
+      "toolbar": [
+        23,
+        23,
+        23
+      ],
+      "tab_text": [
+        192,
+        187,
+        179
+      ],
+      "tab_background_text": [
+        131,
+        127,
+        120
+      ],
+      "bookmark_text": [
+        173,
+        169,
+        163
+      ],
+      "ntp_background": [
+        16,
+        16,
+        16
+      ],
+      "ntp_text": [
+        173,
+        169,
+        163
+      ],
+      "ntp_link": [
+        120,
+        129,
+        132
+      ],
+      "toolbar_button_icon": [
+        154,
+        137,
+        124
+      ],
+      "omnibox_text": [
+        173,
+        169,
+        163
+      ],
+      "omnibox_background": [
+        41,
+        39,
+        36
+      ],
+      "button_background": [
+        48,
+        45,
+        41
+      ]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  },
+  "author": "harunnoir"
+}

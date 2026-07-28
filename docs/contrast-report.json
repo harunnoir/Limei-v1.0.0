@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "name": "Limei role-aware contrast report",
+    "creator": "harunnoir",
+    "generated_by": "scripts/check-contrast.py",
+    "derived_from": "palette/canonical/limei-25.json",
+    "standard": "WCAG relative luminance and contrast ratio",
+    "note": "Only roles intended for readable text fail validation. Decorative and intentionally low-emphasis roles use role-specific thresholds."
+  },
+  "summary": {
+    "checks": 32,
+    "required_failures": []
+  },
+  "checks": [
+    {
+      "name": "body-text",
+      "foreground": "#ada9a3",
+      "background": "#101010",
+      "category": "required-aa",
+      "threshold": 4.5,
+      "contrast_ratio": 8.138,
+      "passed": true
+    },
+    {
+      "name": "bright-text",
+      "foreground": "#c0bbb3",
+      "background": "#101010",
+      "category": "required-aa",
+      "threshold": 4.5,
+      "contrast_ratio": 9.967,
+      "passed": true
+    },
+    {
+      "name": "dim-text",
+      "foreground": "#837f78",
+      "background": "#101010",
+      "category": "required-aa",
+      "threshold": 4.5,
+      "contrast_ratio": 4.777,
+      "passed": true
+    },
+    {
+      "name": "muted-text",
+      "foreground": "#64605a",
+      "background": "#101010",
+      "category": "intentional-low-emphasis",
+      "threshold": 3.0,
+      "contrast_ratio": 3.047,
+      "passed": true
+    },
+    {
+      "name": "border",
+      "foreground": "#393632",
+      "background": "#101010",
+      "category": "decorative",
+      "threshold": 1.2,
+      "contrast_ratio": 1.584,
+      "passed": true
+    },
+    {
+      "name": "ansi-black",
+      "foreground": "#393632",
+      "background": "#101010",
+      "category": "intentional-low-emphasis",
+      "threshold": 1.2,
+      "contrast_ratio": 1.584,
+      "passed": true
+    },
+    {
+      "name": "warm.red-text",
+      "foreground": "#9a7477",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 4.656,
+      "passed": true
+    },
+    {
+      "name": "on-warm.red",
+      "foreground": "#101010",
+      "background": "#9a7477",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 4.656,
+      "passed": true
+    },
+    {
+      "name": "warm.urgent-text",
+      "foreground": "#9b7469",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 4.617,
+      "passed": true
+    },
+    {
+      "name": "on-warm.urgent",
+      "foreground": "#101010",
+      "background": "#9b7469",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 4.617,
+      "passed": true
+    },
+    {
+      "name": "warm.orange-text",
+      "foreground": "#9c795e",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 4.812,
+      "passed": true
+    },
+    {
+      "name": "on-warm.orange",
+      "foreground": "#101010",
+      "background": "#9c795e",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 4.812,
+      "passed": true
+    },
+    {
+      "name": "warm.amber-text",
+      "foreground": "#a38762",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.617,
+      "passed": true
+    },
+    {
+      "name": "on-warm.amber",
+      "foreground": "#101010",
+      "background": "#a38762",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.617,
+      "passed": true
+    },
+    {
+      "name": "warm.clay-text",
+      "foreground": "#9a7869",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 4.77,
+      "passed": true
+    },
+    {
+      "name": "on-warm.clay",
+      "foreground": "#101010",
+      "background": "#9a7869",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 4.77,
+      "passed": true
+    },
+    {
+      "name": "warm.taupe-text",
+      "foreground": "#9a897c",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.657,
+      "passed": true
+    },
+    {
+      "name": "on-warm.taupe",
+      "foreground": "#101010",
+      "background": "#9a897c",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.657,
+      "passed": true
+    },
+    {
+      "name": "earth.green-text",
+      "foreground": "#768569",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 4.829,
+      "passed": true
+    },
+    {
+      "name": "on-earth.green",
+      "foreground": "#101010",
+      "background": "#768569",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 4.829,
+      "passed": true
+    },
+    {
+      "name": "earth.sage-text",
+      "foreground": "#7f8c77",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.364,
+      "passed": true
+    },
+    {
+      "name": "on-earth.sage",
+      "foreground": "#101010",
+      "background": "#7f8c77",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.364,
+      "passed": true
+    },
+    {
+      "name": "earth.wheat-text",
+      "foreground": "#97916f",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.976,
+      "passed": true
+    },
+    {
+      "name": "on-earth.wheat",
+      "foreground": "#101010",
+      "background": "#97916f",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.976,
+      "passed": true
+    },
+    {
+      "name": "earth.navigation-text",
+      "foreground": "#918862",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.348,
+      "passed": true
+    },
+    {
+      "name": "on-earth.navigation",
+      "foreground": "#101010",
+      "background": "#918862",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.348,
+      "passed": true
+    },
+    {
+      "name": "earth.olive-text",
+      "foreground": "#898661",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.116,
+      "passed": true
+    },
+    {
+      "name": "on-earth.olive",
+      "foreground": "#101010",
+      "background": "#898661",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.116,
+      "passed": true
+    },
+    {
+      "name": "cool.slate-text",
+      "foreground": "#788184",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 4.777,
+      "passed": true
+    },
+    {
+      "name": "on-cool.slate",
+      "foreground": "#101010",
+      "background": "#788184",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 4.777,
+      "passed": true
+    },
+    {
+      "name": "cool.lavender-text",
+      "foreground": "#8d818a",
+      "background": "#101010",
+      "category": "accent-text",
+      "threshold": 4.5,
+      "contrast_ratio": 5.11,
+      "passed": true
+    },
+    {
+      "name": "on-cool.lavender",
+      "foreground": "#101010",
+      "background": "#8d818a",
+      "category": "text-on-accent",
+      "threshold": 4.5,
+      "contrast_ratio": 5.11,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+OK: immutable Limei 25 fingerprint ab4856baa6f2f3bba89372d39a8aee6d05f015ec5fc07a3c92b656dcae1f2763
+OK: 26 generated files are current.
+OK: ports use 25 canonical colors and 6 approved ANSI derivatives.
+OK: attribution is consistently assigned to harunnoir.
+OK: all terminal ports use the official Limei ANSI16 mapping.
+OK: JSON, TOML, available YAML, and shell files parse correctly.
+OK: Markdown formatting checks passed.
+OK: 32 role-aware contrast checks passed their required thresholds.
+OK: 34 semantic comfort checks passed.

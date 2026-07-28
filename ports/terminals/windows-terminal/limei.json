@@ -1,0 +1,23 @@
+{
+  "name": "Limei",
+  "background": "#101010",
+  "foreground": "#ada9a3",
+  "cursorColor": "#9a897c",
+  "selectionBackground": "#292724",
+  "black": "#393632",
+  "red": "#9a7477",
+  "green": "#768569",
+  "yellow": "#a38762",
+  "blue": "#788184",
+  "purple": "#8d818a",
+  "cyan": "#7f8c77",
+  "white": "#ada9a3",
+  "brightBlack": "#64605a",
+  "brightRed": "#a88386",
+  "brightGreen": "#859479",
+  "brightYellow": "#b29673",
+  "brightBlue": "#879093",
+  "brightPurple": "#9c9099",
+  "brightCyan": "#8e9b87",
+  "brightWhite": "#c0bbb3"
+}

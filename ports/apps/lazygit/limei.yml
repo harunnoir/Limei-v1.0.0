@@ -1,0 +1,34 @@
+# Limei by harunnoir
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Colors: CC-BY-SA-4.0
+
+# Merge under gui.theme in ~/.config/lazygit/config.yml.
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#9a897c"
+      - bold
+    inactiveBorderColor:
+      - "#393632"
+    searchingActiveBorderColor:
+      - "#a38762"
+      - bold
+    optionsTextColor:
+      - "#788184"
+    selectedLineBgColor:
+      - "#292724"
+    inactiveViewSelectedLineBgColor:
+      - "#171717"
+    cherryPickedCommitBgColor:
+      - "#302d29"
+    cherryPickedCommitFgColor:
+      - "#97916f"
+    markedBaseCommitBgColor:
+      - "#9a7869"
+    markedBaseCommitFgColor:
+      - "#101010"
+    unstagedChangesColor:
+      - "#9a7477"
+    defaultFgColor:
+      - "#ada9a3"
